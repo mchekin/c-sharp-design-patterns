@@ -1,2 +1,2 @@
-# c-sharp-design-patterns
+# C# Design Patterns
 Design Patterns in C#
