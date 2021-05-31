@@ -1,0 +1,9 @@
+# Project Assemblies
+/GangOfFour.dll
+/GangOfFour/bin
+/GangOfFour/obj
+/GangOfFour.Tests/bin
+/GangOfFour.Tests/obj
+
+# Common Directories
+/.vs
