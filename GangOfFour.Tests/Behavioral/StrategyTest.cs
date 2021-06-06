@@ -1,9 +1,8 @@
-using Mchekin.DesignPatterns.GangOfFour.Behavioral.Strategy.Entities;
-using Mchekin.DesignPatterns.GangOfFour.Behavioral.Strategy.Strategies;
-using System;
+using GangOfFour.Behavioral.Strategy.Services;
+using GangOfFour.Behavioral.Strategy.Strategies;
 using Xunit;
 
-namespace Mchekin.DesignPatterns.GangOfFour.Tests
+namespace GangOfFour.Tests.Behavioral
 {
     public class StrategyTest
     {
@@ -12,15 +11,15 @@ namespace Mchekin.DesignPatterns.GangOfFour.Tests
         {
             var service = new SalaryService(new GermanyMaximumTaxStrategy());
 
-            Assert.Equal(55, service.applyMaximumIncomeTax(100));
+            Assert.Equal(55, service.ApplyMaximumIncomeTax(100));
         }
 
         [Fact]
-        public void TestMaxUKTax()
+        public void TestMaxUkTax()
         {
-            var service = new SalaryService(new UKMaximumTaxStrategy());
+            var service = new SalaryService(new UkMaximumTaxStrategy());
 
-            Assert.Equal(61.9, service.applyMaximumIncomeTax(100));
+            Assert.Equal(61.9, service.ApplyMaximumIncomeTax(100));
         }
     }
 }

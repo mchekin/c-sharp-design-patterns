@@ -1,6 +1,6 @@
-﻿namespace Mchekin.DesignPatterns.GangOfFour.Behavioral.Strategy.Strategies
+﻿namespace GangOfFour.Behavioral.Strategy.Strategies
 {
-    public interface MaximumTaxStrategyInterface
+    public interface IMaximumTaxStrategy
     {
         public double Apply(double beforeTax);
     }
