@@ -7,3 +7,6 @@
 
 # Common Directories
 /.vs
+
+# Common Files
+DesignPatterns.sln.DotSettings.user

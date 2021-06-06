@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Mchekin.DesignPatterns.GangOfFour.Behavioral.Strategy.Strategies
+namespace GangOfFour.Behavioral.Strategy.Strategies
 {
-    public class UKMaximumTaxStrategy : MaximumTaxStrategyInterface
+    public class UkMaximumTaxStrategy : IMaximumTaxStrategy
     {
         public double Apply(double beforeTax)
         {

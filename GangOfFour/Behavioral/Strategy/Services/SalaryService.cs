@@ -1,17 +1,17 @@
-﻿using Mchekin.DesignPatterns.GangOfFour.Behavioral.Strategy.Strategies;
+﻿using GangOfFour.Behavioral.Strategy.Strategies;
 
-namespace Mchekin.DesignPatterns.GangOfFour.Behavioral.Strategy.Entities
+namespace GangOfFour.Behavioral.Strategy.Services
 {
     public class SalaryService
     {
-        private readonly MaximumTaxStrategyInterface _taxStrategy;
+        private readonly IMaximumTaxStrategy _taxStrategy;
 
-        public SalaryService(MaximumTaxStrategyInterface taxStrategy)
+        public SalaryService(IMaximumTaxStrategy taxStrategy)
         {
             this._taxStrategy = taxStrategy;
         }
 
-        public double applyMaximumIncomeTax(double grossSalary)
+        public double ApplyMaximumIncomeTax(double grossSalary)
         {
             return this._taxStrategy.Apply(grossSalary);
         }
