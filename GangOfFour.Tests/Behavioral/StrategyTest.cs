@@ -7,7 +7,7 @@ namespace GangOfFour.Tests.Behavioral
     public class StrategyTest
     {
         [Fact]
-        public void TestMaxGermanyTax()
+        public void MaxGermanyTax()
         {
             var service = new SalaryService(new GermanyMaximumTaxStrategy());
 
@@ -15,7 +15,7 @@ namespace GangOfFour.Tests.Behavioral
         }
 
         [Fact]
-        public void TestMaxUkTax()
+        public void MaxUkTax()
         {
             var service = new SalaryService(new UkMaximumTaxStrategy());
 
