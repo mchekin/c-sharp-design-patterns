@@ -4,6 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <RootNamespace>DesignPatterns.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GangOfFour\GangOfFour.csproj" />
+    <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
   </ItemGroup>
 
 </Project>
