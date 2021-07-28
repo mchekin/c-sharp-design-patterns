@@ -1,9 +1,9 @@
 # Project Assemblies
-/GangOfFour.dll
-/GangOfFour/bin
-/GangOfFour/obj
-/GangOfFour.Tests/bin
-/GangOfFour.Tests/obj
+/DesignPatterns.dll
+/DesignPatterns/bin
+/DesignPatterns/obj
+/DesignPatterns.Tests/bin
+/DesignPatterns.Tests/obj
 
 # Common Directories
 /.vs
